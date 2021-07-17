@@ -11,5 +11,5 @@ The Following steps were used to reach the score:
 6. A few columns were important but had considerable missing values, for them a Linear Regression model was built based on other features, and the missing values      were predicted, based on their relation with other features.
 7. Finally this dataset was saved and an XGBoost Regressor model was used to predict the "Loan SAnction amount" of the test dataset after being trained.
 
-The following are the first 100 value comparisons of the predicted and actual amount.\
+The following are the first 500 value comparisons of the predicted and actual amount.\
 ![alt text](https://github.com/101vinayak/Loan_Sanction_Prediction_System/blob/main/Result%20Comparison.jpg)
